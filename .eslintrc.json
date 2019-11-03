@@ -26,6 +26,7 @@
         "extensions": [".jsx", ".tsx"]
       }
     ],
+    "global-require": "off",
     "no-underscore-dangle": 0,
     "react/no-unused-state": 0,
     "react/destructuring-assignment": 0,
