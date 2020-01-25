@@ -14,10 +14,7 @@ function Item({ item }) {
   const dispatch = useDispatch();
   const { id, title, status } = item;
 
-  console.log(`After: ${item}`);
-
   const toggleState = () => {
-    console.log(`Before: ${item}`);
     dispatch(toggleItem(id));
   };
 

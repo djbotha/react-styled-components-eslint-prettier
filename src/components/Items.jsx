@@ -10,7 +10,6 @@ import { completeAll, deleteAll } from '../redux/actions';
 function Items() {
   const dispatch = useDispatch();
   const items = useSelector(store => store.items);
-  console.log(items);
 
   const allClicked = () => {
     dispatch(completeAll());

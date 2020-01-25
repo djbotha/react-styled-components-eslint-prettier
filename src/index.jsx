@@ -10,8 +10,6 @@ import './style/App.css';
 
 const store = createStore(reducers, initialState, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
 
-store.subscribe(console.log);
-
 ReactDOM.render(
   <Provider store={store}>
     <App />
