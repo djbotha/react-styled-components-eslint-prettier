@@ -26,6 +26,9 @@
         "extensions": [".jsx", ".tsx"]
       }
     ],
+    "no-alert": 0,
+    "no-param-reassign": 0,
+    "import/prefer-default-export": 0,
     "global-require": "off",
     "no-underscore-dangle": 0,
     "react/no-unused-state": 0,
